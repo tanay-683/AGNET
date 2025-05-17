@@ -1,0 +1,131 @@
+2025-05-17 14:30:15,574 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:30:58,114 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:31:21,098 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:31:21,174 - google_genai.models models.py - INFO - AFC is enabled with max remote calls: 10.
+2025-05-17 14:31:21,176 - httpcore.connection _trace.py - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-05-17 14:31:21,240 - httpcore.connection _trace.py - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10a5507f0>
+2025-05-17 14:31:21,240 - httpcore.connection _trace.py - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10a382740> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-05-17 14:31:21,289 - httpcore.connection _trace.py - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10a5507c0>
+2025-05-17 14:31:21,289 - httpcore.http11 _trace.py - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-17 14:31:21,289 - httpcore.http11 _trace.py - DEBUG - send_request_headers.complete
+2025-05-17 14:31:21,289 - httpcore.http11 _trace.py - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-17 14:31:21,289 - httpcore.http11 _trace.py - DEBUG - send_request_body.complete
+2025-05-17 14:31:21,289 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-17 14:31:22,934 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sat, 17 May 2025 09:01:22 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1626'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-05-17 14:31:22,936 - httpx _client.py - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-05-17 14:31:22,937 - httpcore.http11 _trace.py - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-17 14:31:22,938 - httpcore.http11 _trace.py - DEBUG - receive_response_body.complete
+2025-05-17 14:31:22,938 - httpcore.http11 _trace.py - DEBUG - response_closed.started
+2025-05-17 14:31:22,939 - httpcore.http11 _trace.py - DEBUG - response_closed.complete
+2025-05-17 14:31:22,942 - google_genai.models models.py - INFO - AFC remote call 1 is done.
+2025-05-17 14:31:22,990 - httpcore.connection _trace.py - DEBUG - connect_tcp.started host='api.agno.com' port=443 local_address=None timeout=60 socket_options=None
+2025-05-17 14:31:23,682 - httpcore.connection _trace.py - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10a62dcf0>
+2025-05-17 14:31:23,682 - httpcore.connection _trace.py - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10a628fc0> server_hostname='api.agno.com' timeout=60
+2025-05-17 14:31:24,296 - httpcore.connection _trace.py - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10a62dcc0>
+2025-05-17 14:31:24,297 - httpcore.http11 _trace.py - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-17 14:31:24,298 - httpcore.http11 _trace.py - DEBUG - send_request_headers.complete
+2025-05-17 14:31:24,298 - httpcore.http11 _trace.py - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-17 14:31:24,299 - httpcore.http11 _trace.py - DEBUG - send_request_body.complete
+2025-05-17 14:31:24,299 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-17 14:31:24,605 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 17 May 2025 09:01:24 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-05-17 14:31:24,606 - httpx _client.py - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-05-17 14:31:24,607 - httpcore.http11 _trace.py - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-17 14:31:24,607 - httpcore.http11 _trace.py - DEBUG - receive_response_body.complete
+2025-05-17 14:31:24,608 - httpcore.http11 _trace.py - DEBUG - response_closed.started
+2025-05-17 14:31:24,608 - httpcore.http11 _trace.py - DEBUG - response_closed.complete
+2025-05-17 14:31:24,608 - httpcore.connection _trace.py - DEBUG - close.started
+2025-05-17 14:31:24,609 - httpcore.connection _trace.py - DEBUG - close.complete
+2025-05-17 14:31:24,610 - markdown_it.rules_block.code code.py - DEBUG - entering code: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,610 - markdown_it.rules_block.fence fence.py - DEBUG - entering fence: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,611 - markdown_it.rules_block.blockquote blockquote.py - DEBUG - entering blockquote: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,611 - markdown_it.rules_block.hr hr.py - DEBUG - entering hr: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,612 - markdown_it.rules_block.list list.py - DEBUG - entering list: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,612 - markdown_it.rules_block.reference reference.py - DEBUG - entering reference: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,613 - markdown_it.rules_block.html_block html_block.py - DEBUG - entering html_block: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,614 - markdown_it.rules_block.heading heading.py - DEBUG - entering heading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,614 - markdown_it.rules_block.lheading lheading.py - DEBUG - entering lheading: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,614 - markdown_it.rules_block.paragraph paragraph.py - DEBUG - entering paragraph: StateBlock(line=0,level=0,tokens=0), 0, 1, False
+2025-05-17 14:31:24,656 - httpcore.connection _trace.py - DEBUG - close.started
+2025-05-17 14:31:24,656 - httpcore.connection _trace.py - DEBUG - close.complete
+2025-05-17 14:32:31,543 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:32:31,583 - google_genai.models models.py - INFO - AFC is enabled with max remote calls: 10.
+2025-05-17 14:32:31,585 - httpcore.connection _trace.py - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-05-17 14:32:31,613 - httpcore.connection _trace.py - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1046225f0>
+2025-05-17 14:32:31,613 - httpcore.connection _trace.py - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1045165c0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-05-17 14:32:31,657 - httpcore.connection _trace.py - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1046225c0>
+2025-05-17 14:32:31,657 - httpcore.http11 _trace.py - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-17 14:32:31,658 - httpcore.http11 _trace.py - DEBUG - send_request_headers.complete
+2025-05-17 14:32:31,658 - httpcore.http11 _trace.py - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-17 14:32:31,658 - httpcore.http11 _trace.py - DEBUG - send_request_body.complete
+2025-05-17 14:32:31,658 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-17 14:32:33,421 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sat, 17 May 2025 09:02:33 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1677'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-05-17 14:32:33,424 - httpx _client.py - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-05-17 14:32:33,424 - httpcore.http11 _trace.py - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-17 14:32:33,426 - httpcore.http11 _trace.py - DEBUG - receive_response_body.complete
+2025-05-17 14:32:33,426 - httpcore.http11 _trace.py - DEBUG - response_closed.started
+2025-05-17 14:32:33,426 - httpcore.http11 _trace.py - DEBUG - response_closed.complete
+2025-05-17 14:32:33,427 - google_genai.models models.py - INFO - AFC remote call 1 is done.
+2025-05-17 14:32:33,478 - httpcore.connection _trace.py - DEBUG - connect_tcp.started host='api.agno.com' port=443 local_address=None timeout=60 socket_options=None
+2025-05-17 14:32:33,696 - httpcore.connection _trace.py - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x1047341c0>
+2025-05-17 14:32:33,696 - httpcore.connection _trace.py - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1046938c0> server_hostname='api.agno.com' timeout=60
+2025-05-17 14:32:34,242 - httpcore.connection _trace.py - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x104734190>
+2025-05-17 14:32:34,243 - httpcore.http11 _trace.py - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-17 14:32:34,244 - httpcore.http11 _trace.py - DEBUG - send_request_headers.complete
+2025-05-17 14:32:34,244 - httpcore.http11 _trace.py - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-17 14:32:34,245 - httpcore.http11 _trace.py - DEBUG - send_request_body.complete
+2025-05-17 14:32:34,245 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-17 14:32:34,548 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 17 May 2025 09:02:34 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-05-17 14:32:34,549 - httpx _client.py - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-05-17 14:32:34,550 - httpcore.http11 _trace.py - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-17 14:32:34,550 - httpcore.http11 _trace.py - DEBUG - receive_response_body.complete
+2025-05-17 14:32:34,551 - httpcore.http11 _trace.py - DEBUG - response_closed.started
+2025-05-17 14:32:34,551 - httpcore.http11 _trace.py - DEBUG - response_closed.complete
+2025-05-17 14:32:34,551 - httpcore.connection _trace.py - DEBUG - close.started
+2025-05-17 14:32:34,552 - httpcore.connection _trace.py - DEBUG - close.complete
+2025-05-17 14:32:34,591 - httpcore.connection _trace.py - DEBUG - close.started
+2025-05-17 14:32:34,592 - httpcore.connection _trace.py - DEBUG - close.complete
+2025-05-17 14:37:00,816 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:37:00,864 - google_genai.models models.py - INFO - AFC is enabled with max remote calls: 10.
+2025-05-17 14:37:00,865 - httpcore.connection _trace.py - DEBUG - connect_tcp.started host='generativelanguage.googleapis.com' port=443 local_address=None timeout=None socket_options=None
+2025-05-17 14:37:00,887 - httpcore.connection _trace.py - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10392a4a0>
+2025-05-17 14:37:00,888 - httpcore.connection _trace.py - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x10385a5c0> server_hostname='generativelanguage.googleapis.com' timeout=None
+2025-05-17 14:37:00,968 - httpcore.connection _trace.py - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x10392a470>
+2025-05-17 14:37:00,968 - httpcore.http11 _trace.py - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-17 14:37:00,968 - httpcore.http11 _trace.py - DEBUG - send_request_headers.complete
+2025-05-17 14:37:00,968 - httpcore.http11 _trace.py - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-17 14:37:00,969 - httpcore.http11 _trace.py - DEBUG - send_request_body.complete
+2025-05-17 14:37:00,969 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-17 14:37:02,650 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Content-Type', b'application/json; charset=UTF-8'), (b'Vary', b'Origin'), (b'Vary', b'X-Origin'), (b'Vary', b'Referer'), (b'Content-Encoding', b'gzip'), (b'Date', b'Sat, 17 May 2025 09:07:02 GMT'), (b'Server', b'scaffolding on HTTPServer2'), (b'X-XSS-Protection', b'0'), (b'X-Frame-Options', b'SAMEORIGIN'), (b'X-Content-Type-Options', b'nosniff'), (b'Server-Timing', b'gfet4t7; dur=1596'), (b'Alt-Svc', b'h3=":443"; ma=2592000,h3-29=":443"; ma=2592000'), (b'Transfer-Encoding', b'chunked')])
+2025-05-17 14:37:02,652 - httpx _client.py - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-05-17 14:37:02,652 - httpcore.http11 _trace.py - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-17 14:37:02,653 - httpcore.http11 _trace.py - DEBUG - receive_response_body.complete
+2025-05-17 14:37:02,654 - httpcore.http11 _trace.py - DEBUG - response_closed.started
+2025-05-17 14:37:02,654 - httpcore.http11 _trace.py - DEBUG - response_closed.complete
+2025-05-17 14:37:02,655 - google_genai.models models.py - INFO - AFC remote call 1 is done.
+2025-05-17 14:37:02,713 - httpcore.connection _trace.py - DEBUG - connect_tcp.started host='api.agno.com' port=443 local_address=None timeout=60 socket_options=None
+2025-05-17 14:37:02,950 - httpcore.connection _trace.py - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103a800d0>
+2025-05-17 14:37:02,951 - httpcore.connection _trace.py - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x1039df8c0> server_hostname='api.agno.com' timeout=60
+2025-05-17 14:37:03,382 - httpcore.connection _trace.py - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x103a800a0>
+2025-05-17 14:37:03,382 - httpcore.http11 _trace.py - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2025-05-17 14:37:03,383 - httpcore.http11 _trace.py - DEBUG - send_request_headers.complete
+2025-05-17 14:37:03,383 - httpcore.http11 _trace.py - DEBUG - send_request_body.started request=<Request [b'POST']>
+2025-05-17 14:37:03,383 - httpcore.http11 _trace.py - DEBUG - send_request_body.complete
+2025-05-17 14:37:03,383 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2025-05-17 14:37:03,606 - httpcore.http11 _trace.py - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 200, b'OK', [(b'Date', b'Sat, 17 May 2025 09:07:03 GMT'), (b'Content-Type', b'application/json'), (b'Content-Length', b'72'), (b'Connection', b'keep-alive'), (b'server', b'uvicorn')])
+2025-05-17 14:37:03,606 - httpx _client.py - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-05-17 14:37:03,607 - httpcore.http11 _trace.py - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2025-05-17 14:37:03,607 - httpcore.http11 _trace.py - DEBUG - receive_response_body.complete
+2025-05-17 14:37:03,607 - httpcore.http11 _trace.py - DEBUG - response_closed.started
+2025-05-17 14:37:03,607 - httpcore.http11 _trace.py - DEBUG - response_closed.complete
+2025-05-17 14:37:03,607 - httpcore.connection _trace.py - DEBUG - close.started
+2025-05-17 14:37:03,608 - httpcore.connection _trace.py - DEBUG - close.complete
+2025-05-17 14:37:03,641 - httpcore.connection _trace.py - DEBUG - close.started
+2025-05-17 14:37:03,641 - httpcore.connection _trace.py - DEBUG - close.complete
+2025-05-17 14:39:15,619 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:39:38,069 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:41:26,968 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 14:41:27,005 - google_genai.models models.py - INFO - AFC is enabled with max remote calls: 10.
+2025-05-17 14:41:27,719 - httpx _client.py - INFO - HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-1.5-flash:generateContent "HTTP/1.1 200 OK"
+2025-05-17 14:41:27,722 - google_genai.models models.py - INFO - AFC remote call 1 is done.
+2025-05-17 14:41:28,820 - httpx _client.py - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
+2025-05-17 14:42:16,037 - AGNET agent.py - INFO - Initializing agent...
