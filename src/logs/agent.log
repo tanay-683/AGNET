@@ -129,3 +129,117 @@
 2025-05-17 14:41:27,722 - google_genai.models models.py - INFO - AFC remote call 1 is done.
 2025-05-17 14:41:28,820 - httpx _client.py - INFO - HTTP Request: POST https://api.agno.com/v1/telemetry/agent/run/create "HTTP/1.1 200 OK"
 2025-05-17 14:42:16,037 - AGNET agent.py - INFO - Initializing agent...
+2025-05-17 15:26:33,436 - werkzeug _internal.py - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 15:26:33,437 - werkzeug _internal.py - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 15:26:33,442 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:26:34,268 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:26:34,291 - werkzeug _internal.py - INFO -  * Debugger PIN: 523-876-886
+2025-05-17 15:26:38,127 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:26:38] "[33mGET / HTTP/1.1[0m" 404 -
+2025-05-17 15:26:38,298 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:26:38] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2025-05-17 15:26:43,679 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:26:43] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+2025-05-17 15:26:53,723 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:26:53,906 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:26:55,293 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:26:55,305 - werkzeug _internal.py - INFO -  * Debugger PIN: 453-825-314
+2025-05-17 15:26:55,719 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:26:55] "GET /login HTTP/1.1" 200 -
+2025-05-17 15:27:57,810 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:27:57,978 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:27:58,975 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:27:58,986 - werkzeug _internal.py - INFO -  * Debugger PIN: 855-052-870
+2025-05-17 15:27:59,015 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:27:59] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-17 15:27:59,036 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:27:59] "GET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 15:27:59,037 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:27:59] "GET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 15:27:59,063 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:27:59] "GET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 15:27:59,066 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:27:59] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=Hm264sBHfXhjC6NTq6p6 HTTP/1.1" 200 -
+2025-05-17 15:28:20,509 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:28:20,708 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:28:21,724 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:28:21,734 - werkzeug _internal.py - INFO -  * Debugger PIN: 135-425-145
+2025-05-17 15:28:21,945 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:21] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-17 15:28:21,977 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 15:28:21,978 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:21] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 15:28:21,988 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:21] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=99gKdHrvNaqg1qTJJDRw HTTP/1.1" 200 -
+2025-05-17 15:28:30,974 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:28:31,174 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:28:32,138 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:28:32,149 - werkzeug _internal.py - INFO -  * Debugger PIN: 417-858-777
+2025-05-17 15:28:32,304 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:32] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-17 15:28:32,331 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 15:28:32,331 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:32] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 15:28:32,341 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:32] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=SGdVlF2etXDHCM7ZBEj7 HTTP/1.1" 200 -
+2025-05-17 15:28:46,501 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:28:46,662 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:28:47,607 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:28:47,618 - werkzeug _internal.py - INFO -  * Debugger PIN: 104-286-253
+2025-05-17 15:28:50,323 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:50] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-17 15:28:50,346 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 15:28:50,349 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:50] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 15:28:50,360 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:28:50] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=7zBYdLQSYQCrZhuNZOKW HTTP/1.1" 200 -
+2025-05-17 15:31:03,550 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:31:03] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-17 15:31:03,573 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:31:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 15:31:03,575 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:31:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 15:31:03,584 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:31:03] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=7zBYdLQSYQCrZhuNZOKW HTTP/1.1[0m" 304 -
+2025-05-17 15:32:24,396 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:32:24] "[35m[1mGET /login HTTP/1.1[0m" 500 -
+2025-05-17 15:32:24,432 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:32:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2025-05-17 15:32:24,432 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:32:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2025-05-17 15:32:24,444 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:32:24] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png&s=7zBYdLQSYQCrZhuNZOKW HTTP/1.1[0m" 304 -
+2025-05-17 15:32:40,707 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:32:40,914 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:32:42,435 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:32:42,448 - werkzeug _internal.py - INFO -  * Debugger PIN: 301-881-276
+2025-05-17 15:32:43,761 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:32:43] "GET /login HTTP/1.1" 200 -
+2025-05-17 15:32:43,803 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:32:43] "GET /static/css/login.css HTTP/1.1" 200 -
+2025-05-17 15:33:05,584 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:33:05] "POST /login HTTP/1.1" 200 -
+2025-05-17 15:33:05,635 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:33:05] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-05-17 15:33:58,230 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:33:58,447 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:33:59,361 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:33:59,372 - werkzeug _internal.py - INFO -  * Debugger PIN: 113-831-081
+2025-05-17 15:34:03,502 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:34:03] "[33mGET /signup HTTP/1.1[0m" 404 -
+2025-05-17 15:35:21,493 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:35:21] "[33mGET /signup HTTP/1.1[0m" 404 -
+2025-05-17 15:35:32,224 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:35:32] "[33mGET /signup HTTP/1.1[0m" 404 -
+2025-05-17 15:36:02,084 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:36:02,260 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:36:26,424 - werkzeug _internal.py - INFO - [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+2025-05-17 15:36:26,424 - werkzeug _internal.py - INFO - [33mPress CTRL+C to quit[0m
+2025-05-17 15:36:26,426 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:36:27,353 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:36:27,382 - werkzeug _internal.py - INFO -  * Debugger PIN: 141-616-526
+2025-05-17 15:36:39,854 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:36:39] "GET /signup HTTP/1.1" 200 -
+2025-05-17 15:36:39,897 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:36:39] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-05-17 15:37:15,474 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:37:15,638 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:37:16,583 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:37:16,593 - werkzeug _internal.py - INFO -  * Debugger PIN: 563-453-511
+2025-05-17 15:37:16,611 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:37:16] "[33mGET /signup HTTP/1.1[0m" 404 -
+2025-05-17 15:37:19,387 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:37:19] "GET /login HTTP/1.1" 200 -
+2025-05-17 15:37:19,435 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:37:19] "[36mGET /static/css/login.css HTTP/1.1[0m" 304 -
+2025-05-17 15:37:44,283 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:37:44,454 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:37:45,597 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:37:45,608 - werkzeug _internal.py - INFO -  * Debugger PIN: 936-007-392
+2025-05-17 15:47:41,636 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:47:41,855 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:47:43,259 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:47:43,271 - werkzeug _internal.py - INFO -  * Debugger PIN: 842-947-343
+2025-05-17 15:48:02,746 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:48:03,044 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:48:03,946 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:48:03,959 - werkzeug _internal.py - INFO -  * Debugger PIN: 114-180-660
+2025-05-17 15:48:04,454 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:04] "[35m[1mGET /home HTTP/1.1[0m" 500 -
+2025-05-17 15:48:04,503 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:04] "GET /home?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2025-05-17 15:48:04,504 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:04] "GET /home?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2025-05-17 15:48:04,519 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:04] "GET /home?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2025-05-17 15:48:04,522 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:04] "GET /home?__debugger__=yes&cmd=resource&f=console.png&s=dNzaZmqpAmv1f8G5q39F HTTP/1.1" 200 -
+2025-05-17 15:48:22,420 - werkzeug _internal.py - INFO -  * Detected change in '/Users/tanay/agnet/main.py', reloading
+2025-05-17 15:48:22,645 - werkzeug _internal.py - INFO -  * Restarting with stat
+2025-05-17 15:48:23,701 - werkzeug _internal.py - WARNING -  * Debugger is active!
+2025-05-17 15:48:23,711 - werkzeug _internal.py - INFO -  * Debugger PIN: 950-961-125
+2025-05-17 15:48:24,473 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:24] "GET /home HTTP/1.1" 200 -
+2025-05-17 15:48:24,505 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:24] "[33mGET /static/css/chat.css HTTP/1.1[0m" 404 -
+2025-05-17 15:48:24,507 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:24] "[33mGET /static/js/chat.js HTTP/1.1[0m" 404 -
+2025-05-17 15:48:44,452 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:44] "GET /home HTTP/1.1" 200 -
+2025-05-17 15:48:44,476 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:44] "[33mGET /static/js/chat.js HTTP/1.1[0m" 404 -
+2025-05-17 15:48:44,483 - werkzeug _internal.py - INFO - 127.0.0.1 - - [17/May/2025 15:48:44] "GET /static/css/home.css HTTP/1.1" 200 -
