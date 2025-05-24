@@ -1,3 +1,8 @@
+*.db
+*.py[cod]
+assets/external/
+.web
+.states
 # Python-generated files
 __pycache__/
 *.py[oc]
@@ -14,3 +19,4 @@ wheels/
 
 uv.lock
 .python-version
+src/logs/agent.log
